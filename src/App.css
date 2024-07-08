@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.headerStyle {
+  text-align:center;
+  text-decoration: underline;
+  padding: 3px;
+  background-color: #ffe883;
+  color: rgb(32, 32, 32);
+  border: solid, 0px, rgb(0, 0, 0);
+  border-radius: 8px 8px 8px 8px;
+}
+
+/* Main Body Styles:  */
+.bodyContainerStyle {
+  justify-content: space-between;
+  height: auto;
+  padding: 2rem;
+  background-color: #ffe883;
+  border: solid, 0px, rgb(0, 0, 0);
+  border-radius: 8px 8px 8px 8px;
+}
+
+/* To Do Entry Form Styles:  */
+
+.formStyle {
+  max-width: 1280px;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: #a8a8a8;
+  color: black;
+  border: solid, 1px, black;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px black;
+}
+
+label {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #436cff;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #393939;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  border: solid, 1px, black;
+  border-radius: 4px;
+  background-color: #6490ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #436cff
+}
+
+/* To Do Items */
+
+.toDoStyle {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  color: #393939;
+  font-weight: bold;
+  
+}
+
+.toDoItemContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+}
+
+.optionsStyle {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.checkStyle {
+  width: 20px;
+  height: 20px;
+}
+
+.completedStyle.line-through {
+  text-decoration: line-through;
+}
+
+.toDoDeleteStyle {
+  background-color: rgb(255, 92, 92);
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1.5px 1.5px #0f0f0f;
+}
+
+.toDoDeleteStyle:hover {
+  background-color: rrgb(255, 92, 92);
+  box-shadow: 0px 0px 0px #393939;
+}
